@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* CSS GERAL
+*********************/
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: Helvetica, Arial,sans-serif;
+  background-color: #161616;
+  color: #FFFFFF;
+}
+
+section.section-background {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+div.section-container {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.65);
+}
+
+h1.section-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+p.section-text {
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin: 0;
+}
+i.ancora {
+  position: absolute;
+  top: -85px;
+}
+/* CSS HEADER
+*********************/
+
+header.menuprincipal {
+  position: relative;
+}
+
+video.header-video {
+  width: 100%;
+}
+
+nav.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #3B3B3B;
+  z-index: 100;
+}
+
+nav.navigation {
+  padding: 0;
+}
+
+li.navigation-list-item {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav a.nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a.nav-link:hover {
+  color:#0079D0;
+}
+
+img.logo {
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+}
+
+section.place {
+background-image: url('../images/bar_interior.jpg');
+}
+
+/* CSS O LUGAR
+*********************/
+section.place {
+background-image: url('../images/bar_interior.jpg');
+}
+
+/* CSS NOSSOS DRINKS
+*********************/
+section.drinks {
+background-image: url('../images/drinks_background.jpg');
+}
+
+img.image_aside {
+  max-width: 30%;
+  margin-top: -30px;
+}
+/* CSS FOOTER
+*********************/
+footer.main-footer {
+  position: relative;
+  padding: 10px;
+}
+section.section-footer {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  min-width: 230px;
+}
